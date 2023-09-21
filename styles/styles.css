@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    list-style: none;
+}
+h1 {
+    color: white;
+    font-weight: bold;
+}
+.link-nav {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.main-container {
+    margin: 0 20% 0 20%;
+}
+.nav-container {
+    background-color: #9fc5f8;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20% 0 20%;
+}
+.current-location {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px black solid;
+}
+.weather-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0 5% 0;
+}
+.card-day {
+    background-color: #eeeeee;
+    width: 150px;
+    border-radius: 5px;
+    margin: 0 5% 0 0;
+}
+.card-day:last-child {
+    margin: 0;
+}
+.primary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo-tiempo {
+    width: 100px;
+    border-radius: 50%;
+}
+.change-temperature {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.temperature {
+    font-weight: bold;
+}
+.scale {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: bold;
+}
+.max {
+    color: #cd2624;
+    padding-bottom: 10%;
+}
+.min {
+    color: #2273e3;
+    padding-bottom: 10%;
+}
+
+.container-cookies {
+    display: flexbox;
+    margin: 0 20% 0 20%;
+    border: 3px solid black;
+    background-color: #eeeeee;
+}
+.cookies {
+    display: flex;
+    align-items: center;
+}
+.logo-cookies {
+    padding: 0 2%;
+}
+.content {
+    display: flexbox;
+    padding: 0 2%;
+}
+.btn-cookies {
+    padding: 0 2%;
+}
+.accept-cookies {
+    cursor: pointer;
+    width: 100px;
+    background-color: #9fc5f8;
+    border: 2px solid black;
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,1);
+}
+/* Ocultar el container de cookies */
+.hide {
+    display: none;
+}
